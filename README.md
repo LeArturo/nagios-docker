@@ -11,9 +11,9 @@
 ### 1. Clonar el Repositorio
 
 Clona el repositorio de GitHub en tu máquina local:
-!/bin/bash
-git clone https://github.com/LeArturo/nagios-docker.git
-cd nagios-docker
+	
+	git clone https://github.com/LeArturo/nagios-docker.git
+	cd nagios-docker
 
 ## Dentro de tu carpeta deberian quedar todos estos archivos
 
