@@ -17,7 +17,7 @@ git clone https://github.com/LeArturo/nagios-docker.git
 cd nagios-docker
 
 ## Dentro de tu carpeta deberian quedar todos estos archivos
-	.
+
 ├── Dockerfile
 ├── docker-compose.yml
 ├── nagios.conf
