@@ -16,21 +16,18 @@ Clona el repositorio de GitHub en tu máquina local:
 git clone https://github.com/LeArturo/nagios-docker.git
 cd nagios-docker
 
-#Dentro de tu carpeta deberian quedar todos estos archivos
+## Dentro de tu carpeta deberian quedar todos estos archivos
 	.
 ├── Dockerfile
 ├── docker-compose.yml
 ├── nagios.conf
 └── README.md
 
-#Armar imagen y ejecutar nagios-core
+## Armar imagen y ejecutar nagios-core
 	cd nagios-core
 		docker build -t nagios .
 		docker run -d -p 80:80 <imagen-ID>
 
-
-
-
-#Ejecutar y levantar nagios-core con compose
+## Ejecutar y armar nagios con docker-compose
 	cd nagios-core
-		docker compose up -d
+		docker-compose up -d
