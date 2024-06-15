@@ -2,9 +2,9 @@
 
 ## Requisitos
 
-- Docker
-- Docker Compose
-- Git
+- [Docker](https://docs.docker.com/engine/install/)
+- [Docker Compose](https://docs.docker.com/compose/install/)
+- [Git](https://github.com/git-guides/install-git)
 
 ## Pasos para Construir y Ejecutar el Contenedor
 
